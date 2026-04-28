@@ -1,5 +1,6 @@
 <?php 
 
+declare(strict_types=1);
 $name = "Pedro";
 $greeting = "Seja bem vindo ao curso \"\"";
 $greeting = 'Seja bem vindo ao curso \'\'';
@@ -16,4 +17,9 @@ $test = 'Hello world $greeting $name hoje é dia ';
 //var_dump($message);
 //print('Olá');
 
-echo date('d/m/Y');
+//echo date('Y-m-d');
+
+count(value: [], mode: 1);
+
+$callback = fn() => 1;
+array_reduce([], $callback, initial:1);
