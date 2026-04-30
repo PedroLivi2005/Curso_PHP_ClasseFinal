@@ -12,11 +12,9 @@ $test = 'Hello world $greeting $name hoje é dia ';
 
 //Funções em PHP
 //funçao(argumento)
-
 //date();
 //var_dump($message);
 //print('Olá');
-
 //echo date('Y-m-d');
 
 count(value: [], mode: 1);
