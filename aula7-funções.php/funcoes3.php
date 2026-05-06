@@ -22,6 +22,7 @@ function show(string $text, Closure $cleaner): void{
     var_dump($cleaner($text));
 }
 
+//Função trim() remove espaços em branco (ou outros caracteres) do início e do final de uma string.
 show('      Hello World      ', function(string $text): string {
     return trim($text);
 });

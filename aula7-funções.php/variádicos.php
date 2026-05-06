@@ -2,7 +2,7 @@
 
 declare(strict_types=1); //habilitar o modo de tipagem estrita
 
-//1- Dessa forma com o array a função vai aceitar parâmetros de diferentes tipos, mas irá apresentar erro se ouver cálculos:
+//1- Dessa forma com o array a função vai aceitar parâmetros de diferentes tipos, mas irá apresentar erro se houver cálculos:
 /*
 function sum(array $numbers): void{
     $numbers = func_get_args();//Essa função retorna um array contendo todos os argumentos passados para uma função definida pelo usuário

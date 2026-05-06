@@ -6,11 +6,13 @@ declare(strict_types=1);
 //    echo "Hello world!";
 //}
 
-//colocar :void garante que nenhum return irá funcionar
-//é possível declarar o tipo do parâmetro
-//mixed é o padrão
-//é recomendado declarar o tipo do parametro para evitar que alguém tente usar um tipo que não é compatível
-//usar ?antes do parâmetro quando pode ser null
+//Colocar :void garante que nenhum return irá funcionar. Indica que a função executa uma ação, mas não retorna nenhum valor.
+
+//É possível declarar o tipo do parâmetro, mixed é o padrão.
+
+//É recomendado declarar o tipo do parametro para evitar que alguém tente usar um tipo que não é compatível.
+
+//Usar "?" antes do parâmetro quando pode ser null.
 function hello(string | int $name, ?string $lastName): void 
 { 
     echo $name;
