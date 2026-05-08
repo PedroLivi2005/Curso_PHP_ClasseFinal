@@ -29,10 +29,12 @@ declare(strict_types=1);
 
 $users = ['Joao', 'Maria', 'Pedro'];
 $text = "joao,maria,pedro";
+$text2 = 'Test string PHP ';
 
-$result = implode('bla ', $users);
+$result = explode(" ", 'Test string PHP ');
 
-var_dump($result);
+//var_dump($result);
+//echo $result[0];
 
 //['Joao', 'Maria', 'Pedro']
 //Test string PHP
